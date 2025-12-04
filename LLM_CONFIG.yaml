@@ -1,0 +1,19 @@
+llms:
+  anthropic:
+    enabled: true
+    model_name: claude-3-7-sonnet-20250219
+    max_tokens: 512
+    temperature: 0
+  openai:
+    enabled: false
+    model_name: gpt-4o
+    max_tokens: 512
+    temperature: 0
+  google:
+    enabled: false
+    model_name: chat-bison-001
+    max_tokens: 512
+  vertexai:
+    enabled: false
+    model_name: text-bison@002
+    max_tokens: 512

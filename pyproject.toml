@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "omni-assistant"
+version = "0.1.0"
+description = ""
+authors = ["Faysal, Sheikh <u1175660@internal.imsglobal.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.3.3"
+langgraph = "^1.0.4"
+langchain = "^1.1.2"
+python-dotenv = "^1.2.1"
+langchain-anthropic = "^1.2.0"
+langchain-openai = "^1.1.0"
+langchain-google-vertexai = "^3.1.1"
+
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -5,6 +5,21 @@ __pycache__/
 
 # C extensions
 *.so
+# virtual environment
+venv/
+.venv/
+
+# Macos
+.DS_Store
+.idea
+.vscode/
+
+# Environment variables file
+.env
+.env.*
+
+
+
 
 # Distribution / packaging
 .Python
