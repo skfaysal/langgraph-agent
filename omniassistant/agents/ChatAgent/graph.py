@@ -2,9 +2,9 @@
 from dotenv import load_dotenv
 from langgraph.graph import END, StateGraph
 
-from omniassistant.consts import LLM_INFERENCE_NODE
+from omniassistant.agents.ChatAgent.consts import LLM_INFERENCE_NODE
 from omniassistant.nodes import llm_inference_node
-from omniassistant.state import GraphState
+from omniassistant.agents.ChatAgent.state import GraphState
 
 load_dotenv()
 

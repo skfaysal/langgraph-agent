@@ -1,7 +1,7 @@
 from typing import Any, Dict
 
 from ..chains.llm_inference_chain import simple_chat_chain
-from ..state import GraphState
+from omniassistant.agents.ChatAgent.state import GraphState
 
 
 def llm_inference_node(state: GraphState) -> Dict[str, Any]:
